@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab7b3813718e6a43a09b2947fdf1ce9, type: 3}
+  m_Name: GameManagerDataExample
+  m_EditorClassIdentifier: 
+  subManagerDataList:
+  - dataTypeName: GMS.TimeManagerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.AudioManagerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.LevelData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.NPCManagerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  subManagers:
+  - rid: 3765517596618129408
+  - rid: 3765517596618129409
+  - rid: 3765517596618129410
+  - rid: 3765517692376186882
+  references:
+    version: 2
+    RefIds:
+    - rid: 3765517596618129408
+      type: {class: LevelData, ns: GMS, asm: Assembly-CSharp}
+      data: 
+    - rid: 3765517596618129409
+      type: {class: NPCManagerData, ns: GMS, asm: Assembly-CSharp}
+      data:
+        maxEnemyCount: 50
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        prefab: {fileID: 0}
+        LevelsDataKey: 
+    - rid: 3765517596618129410
+      type: {class: TimeManagerData, ns: GMS, asm: Assembly-CSharp}
+      data: 
+    - rid: 3765517692376186882
+      type: {class: AudioManagerData, ns: GMS, asm: Assembly-CSharp}
+      data:
+        AudioMixer: {fileID: 0}
+        VoiceGroup: {fileID: 0}
+        UIGroup: {fileID: 0}
+        SfxGroup: {fileID: 0}
+        TrackGroup: {fileID: 0}
+        Voice_SFX_Prefab: {fileID: 0}
+        UI_SFX_Prefab: {fileID: 0}
+        PositionSFX_Prefab: {fileID: 0}
+        AudioBaseAddress: AudioBase
+        AudioBaseSO: {fileID: 0}

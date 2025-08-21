@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d574fa13847c24abbd261c4696ef36, type: 3}
+  m_Name: AudioBase
+  m_EditorClassIdentifier: 
+  AudioMixer: {fileID: 24100000, guid: f0a6cac03cb4b3c48a4e69c1082d1d04, type: 2}
+  VoiceGroup: {fileID: -8579252031155497196, guid: f0a6cac03cb4b3c48a4e69c1082d1d04,
+    type: 2}
+  UIGroup: {fileID: -8012072866540350533, guid: f0a6cac03cb4b3c48a4e69c1082d1d04,
+    type: 2}
+  SfxGroup: {fileID: 8819334302373601400, guid: f0a6cac03cb4b3c48a4e69c1082d1d04,
+    type: 2}
+  TrackGroup: {fileID: 7386653249440281341, guid: f0a6cac03cb4b3c48a4e69c1082d1d04,
+    type: 2}
+  Voice_SFX_Prefab: {fileID: 1320450239109106386, guid: 931c81fffc96a0a4d8572f6d8f12a7ea,
+    type: 3}
+  UI_SFX_Prefab: {fileID: 704850595197691706, guid: 8edeb43d64d4311439170a62968ebf74,
+    type: 3}
+  PositionSFX_Prefab: {fileID: 5851380023610430077, guid: 2ae528845fdb12441868187db4331698,
+    type: 3}

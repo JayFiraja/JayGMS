@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4d10a1fdd7de7449d80c95b10be17b, type: 3}
+  m_Name: TicTacToe_GridData_BuiltInRendering
+  m_EditorClassIdentifier: 
+  Offset: 3
+  TransformCoordinates: {x: 0, y: 0.7, z: 0}
+  CellPrefab: {fileID: 8961812042781703903, guid: a27911272810aee498180ab05df39f7d,
+    type: 3}
+  BoxColliderCenter: {x: -0.01, y: 0.17, z: -0.01}
+  BoxColliderSize: {x: 0.9, y: 0.2, z: 0.9}
+  MarkerPrefab: {fileID: 4902508863583555385, guid: 6ffffb35936dfd64e974729e59344f82,
+    type: 3}
+  CellsTransformName: Cells Container
+  MarksTransformName: Marks Container
+  LightsTransformName: Lights Container
+  SpotLightPrefab: {fileID: 7715128516185693351, guid: 11d49e8adeb201e4b874806178319157,
+    type: 3}
+  LightsToSpawn: 3
+  LightInterval: 0.5

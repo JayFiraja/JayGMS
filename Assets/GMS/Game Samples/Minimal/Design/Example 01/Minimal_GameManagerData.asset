@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab7b3813718e6a43a09b2947fdf1ce9, type: 3}
+  m_Name: Minimal_GameManagerData
+  m_EditorClassIdentifier: 
+  subManagerDataList:
+  - dataTypeName: GMS.AudioManagerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.TimeManagerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.VFXData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.Samples.Minimal_InputData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.Samples.Minimal_UIData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.Minimal_CharacterData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.Minimal_CollectiblesData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.Minimal_LevelData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.Minimal_CameraData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  subManagers:
+  - rid: 3765517821360209920
+  - rid: 3765517821360209921
+  - rid: 3765517848668274688
+  - rid: 3765517963305156608
+  - rid: 3765517965924761600
+  - rid: 3695310169559269377
+  - rid: 3695310212673830912
+  - rid: 3695310212673830913
+  - rid: 3695310234793279488
+  references:
+    version: 2
+    RefIds:
+    - rid: 3695310169559269377
+      type: {class: Minimal_CollectiblesData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        CollectibleItemsAdressablesLabel: Minimal_Collectible
+        CollectiblesParentName: Collectibles
+        CollectibleHeight: 1
+        CollectibleSpawnDistanceThreshold: 2
+        GridCenterPosition: {x: 0, y: 0, z: 0}
+        SpawnAreaGridSize: 5
+        MaxCollectiblesPerGrid: 3
+        SpawnAreaWidth: 100
+        SpawnAreaHeight: 100
+        SpawnRadius: 2
+        SpawnAttemptsRate: 10
+        UseBuiltInRenderingPrefab: 0
+    - rid: 3695310212673830912
+      type: {class: Minimal_CameraData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        CameraContainerPrefabAddress: Minimal_CameraSetup
+        StartCameraPosition: {x: 0.87, y: 4.23, z: 6.2}
+        StartCameraRotation: {x: 39.39, y: -116.88, z: 0}
+        StartCameraScale: {x: 1, y: 1, z: 1}
+    - rid: 3695310212673830913
+      type: {class: Minimal_LevelData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        LevelPrefabAddress: Minimal_Level_Flat
+        StartLevelPosition: {x: 0, y: 0, z: 0}
+        StartLevelRotation: {x: 0, y: 0, z: 0}
+        StartLevelScale: {x: 1, y: 1, z: 1}
+    - rid: 3695310234793279488
+      type: {class: VFXData, ns: GMS, asm: Assembly-CSharp}
+      data:
+        ParticlesPoolGameObjectName: VFX_Particles_Pool
+    - rid: 3765517821360209920
+      type: {class: AudioManagerData, ns: GMS, asm: Assembly-CSharp}
+      data:
+        AudioBaseAddress: AudioBase
+        AudioBaseSO: {fileID: 0}
+    - rid: 3765517821360209921
+      type: {class: TimeManagerData, ns: GMS, asm: Assembly-CSharp}
+      data: 
+    - rid: 3765517848668274688
+      type: {class: Minimal_UIData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        UIBasicCollectionAddress: Minimal_UIBase
+        UICollectionSO: {fileID: 0}
+        BulletPointPanel: {fileID: 8212977196323269325, guid: 9e37605aab20b7b4aa52718dec4effbf,
+          type: 3}
+        ToggleUIContentFitter: {fileID: 1712543142548077804, guid: e82cd7f1999991d4789d1cac765e4b77,
+          type: 3}
+        MinimalInfoItems:
+        - ToggleSubjectText: Add and Remove SubManagers On-Demand
+          contentItems:
+          - '<b>Dynamic Editing In Code</b>
+
+            Add a manager that takes
+            care of a mechanic, then clean it up when not needed to free memory and
+            processing time.'
+          - <b>Define Loading states on Design level:</b>Toggle the Loaded bool of
+            sub managers to test your game faster, perhaps without certain systems
+            while debugging.
+          - '<b>Avoiding Hard Dependencies:</b> By managing dependencies through
+            a design-level, you can ensure that your game remains flexible and adaptable. '
+          - <b>Using base Sub-Managers as dependencies:</b> Some Sub-Managers fit
+            in the "Base" category like Audio, Time, and UI manager. For all others
+            non-Base this system quickly highlights unwanted hard dependencies.
+        - ToggleSubjectText: High level control of your Game Systems
+          contentItems:
+          - '<b>The Big Picture:</b> This system brings  a "big-picture" perspective
+            to  team members ,
+
+            Allowing devs to make impactful changes
+            quickly.
+
+'
+          - '<b>Higher level of exploration:</b> By having the high level control
+            of systems
+
+'
+          - '<b>Going from high level to granular control:</b> Setting up scriptable
+            objects and Addressables with data collections of what characters, levels,
+            collectibles should be like, all elements should be quickly accessible
+            at a quick glance. ie. NPCManager->NPCs->DarkMinion_Baby->Smallest components
+            and assets.
+
+'
+        - ToggleSubjectText: Game Design driven
+          contentItems:
+          - <b>Focus on the FUN:</b> Focus on the fun aspects of your game, control
+            over services like these, grant designers more control in order to have
+            a heavier voice and visibility on the gameplay.
+          - <b>Iterarion:</b> By providing this level of flexibility that GMS promotes,
+            we trully enter in a more iterative environment when more elements on
+            a higher level can be swapped, tweaked and balanced.
+          - '<b>Games are art thanks to Gameplay</b> Is something art is always in
+            a debate, even within painting some people can consider a piece is NOT
+            art. According to MoMa ( the museum of modern arts) "Are video games
+            art? They sure are, but they are also design, and a design approach is
+            what we chose for this new foray into this universe."
+
+'
+          - '<b>Let all team members shine:</b> All team members have valuable contributions,
+            by making tools and systems, we programmers allow them to shine even
+            brighter.
+
+'
+        - ToggleSubjectText: Enforcing Model View Controller
+          contentItems:
+          - <b>Separation of Concerns:</b> By keeping data separate from the view,
+            changes to game mechanics, rules, or content can be made without affecting
+            the user interface or rendering code.
+          - <b>Automatic Data Binding:</b> The services get binded to their data
+            as it's injected in their constructors, so team programmers never have
+            to worry of getting that data externally.
+          - <b>Flexibility and Modularity:</b> When game logic and content are defined
+            through data, it becomes simpler for developers and modders to customize
+            the game without needing to dive into the core codebase.
+          - '<b>Simplified Updates and Bug Fixes:</b> With a data-driven approach,
+            fixing bugs or updating content can often be done by altering the data
+            rather than modifying the underlying code. '
+          - <b>Automated Testing:</b> Data-driven games can be more easily tested
+            through automated scripts that validate the data against expected outcomes.
+        - ToggleSubjectText: One Way Logic
+          contentItems:
+          - <b>In Model View Controller Terms:</b>  Logic processing from <b>Model<b>
+            navigates from GameManager to SubManagers then to <b>View</b> systems
+            using data, and listening to <b>Control</b> mostly involving input and
+            Events.
+          - '<b>Avoids Spaguetti code:</b>  Have you ever heard the term spaguetti
+            code? this is when all the code is pointing everywhere in the codebase
+            and  ends up all being interdependent from one another.
+
+            Control
+            is lost and it usually gets plagued with bugs.'
+          - <b>Memory Effiency:</b>  CPU's work best when lookup are contiguous and
+            retained. In other words, keeping most related data together also contributes
+            to reducing computing time.
+        PopulateItemsRate: 0.1
+        CollectiblesHolder: {fileID: 8036229037794533578, guid: beb103100f934d244bd0f5f01042c150,
+          type: 3}
+        UICollectibleItem: {fileID: 5230511960022430839, guid: cc50efbeb15aeae41bd765ca79aa55ff,
+          type: 3}
+        CollectibleItemsFadeSpeed: 2
+        CollectibleItemsFadeRate:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        CollectibleItemsFadeOutTimer: 3
+    - rid: 3765517963305156608
+      type: {class: Minimal_InputData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        PlayerMove: {fileID: -1680190386980627800, guid: be55ce1027b24e64dafd5e1b3a6b2876,
+          type: 3}
+    - rid: 3765517965924761600
+      type: {class: Minimal_CharacterData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        TransformContentName: Characters
+        SpawnAllCooldown: 2
+        SpawnInterval: 0.1
+        SpawnCharacters:
+        - startPosition: {x: -4.825, y: 0, z: 7.269}
+          startRotation: {x: 0, y: 154.41, z: 0}
+          startScale: {x: 1, y: 1, z: 1}
+          CharactersToSpawn:
+            IsPlayerControlled: 1
+            characterPrefab: {fileID: 1368333703267632088, guid: b5868c771fd4c7440aa6f73342db50af,
+              type: 3}
+            MoveAnimatorKey: Move
+            MaxSpeed: 8
+            Acceleration:
+              serializedVersion: 2
+              m_Curve:
+              - serializedVersion: 3
+                time: 0
+                value: 0
+                inSlope: 2
+                outSlope: 2
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0
+                outWeight: 0
+              - serializedVersion: 3
+                time: 1
+                value: 1
+                inSlope: 0
+                outSlope: 0
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0
+                outWeight: 0
+              m_PreInfinity: 2
+              m_PostInfinity: 2
+              m_RotationOrder: 0
+            MoveInRelationToMainCamera: 1
+            LookAtMovementDirection: 1
+            RotationSpeed: 180
+            LookAtAcceleration:
+              serializedVersion: 2
+              m_Curve:
+              - serializedVersion: 3
+                time: -0.001150748
+                value: 0.3
+                inSlope: 2
+                outSlope: 2
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0
+                outWeight: 0
+              - serializedVersion: 3
+                time: 0.5
+                value: 1
+                inSlope: 0
+                outSlope: 0
+                tangentMode: 0
+                weightedMode: 0
+                inWeight: 0
+                outWeight: 0
+              m_PreInfinity: 2
+              m_PostInfinity: 2
+              m_RotationOrder: 4
+            JumpClips:
+            - {fileID: 8300000, guid: d8064f5a02ae44444b01f67730a89958, type: 3}
+            - {fileID: 8300000, guid: 91feb18952fe49849b9fa3ac6bdc6501, type: 3}

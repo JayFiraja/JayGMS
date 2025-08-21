@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab7b3813718e6a43a09b2947fdf1ce9, type: 3}
+  m_Name: Minimal_GameManagerCollectiblesHandPlaced
+  m_EditorClassIdentifier: 
+  subManagerDataList:
+  - dataTypeName: GMS.Samples.Minimal_HandPlacedCollectiblesData, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  subManagers:
+  - rid: 3695310300953706552
+  references:
+    version: 2
+    RefIds:
+    - rid: 3695310300953706552
+      type: {class: Minimal_HandPlacedCollectiblesData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        CollectiblesToSpawns:
+        - CollectibleSO: {fileID: 11400000, guid: 332c6cbc6279b4140a9f36c609bb91b1,
+            type: 2}
+          WorldPositions:
+          - {x: -10, y: 1, z: 2.5}
+          - {x: -43.29, y: 1, z: 43.87}
+          - {x: -12.3, y: 1, z: 31.8}
+          - {x: 14.2, y: 1, z: 44.3}
+          - {x: 38.1, y: 1, z: 27.7}
+          - {x: 29.7, y: 1, z: 4.3}
+          - {x: -36.5, y: 1, z: -22.2}
+          - {x: -3.5, y: 1, z: -43.9}
+          - {x: -10, y: 1, z: -15.1}
+          - {x: -37.9, y: 1, z: 10.6}
+        - CollectibleSO: {fileID: 11400000, guid: 5d1187c9a487c2c489844515b776fd6f,
+            type: 2}
+          WorldPositions:
+          - {x: 5, y: 1, z: 5}
+          - {x: -26.71, y: 1, z: 40.77}
+          - {x: -14.9, y: 1, z: 31.8}
+          - {x: 20.7, y: 1, z: 42.5}
+          - {x: 42.7, y: 1, z: 4.1}
+          - {x: 6.6, y: 1, z: 8.1}
+          - {x: -25, y: 1, z: -19}
+          - {x: -24.8, y: 1, z: -40.5}
+          - {x: 8.4, y: 1, z: -20.4}
+          - {x: 20.3, y: 1, z: -9.4}
+        - CollectibleSO: {fileID: 11400000, guid: a0f608c87acc23a4da9ca3a5e19e462c,
+            type: 2}
+          WorldPositions:
+          - {x: 10, y: 1, z: 2.5}
+          - {x: -27.89, y: 1, z: 24.94}
+          - {x: -2.5, y: 1, z: 41.2}
+          - {x: 39.6, y: 1, z: 43.4}
+          - {x: 38.8, y: 1, z: -26.6}
+          - {x: 23, y: 1, z: -38.5}
+          - {x: -11.9, y: 1, z: -25.6}
+          - {x: 12.6, y: 1, z: 19.4}
+          - {x: -37.4, y: 1, z: -14.7}
+        PoolTransformName: Collectibles_HandPlaced
+        UseBuiltInRenderingPrefab: 0

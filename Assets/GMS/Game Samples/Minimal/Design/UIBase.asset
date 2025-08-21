@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b080a77c65e73f14fbc56d18c2bf5456, type: 3}
+  m_Name: UIBase
+  m_EditorClassIdentifier: 
+  MainCanvas: {fileID: 3357938492730172960, guid: c7abd38b07b388a46bdb61452df381a6,
+    type: 3}
+  Window: {fileID: 4171903268316225532, guid: 10c63d9a69f51e741b4a3aca6d70918f, type: 3}
+  EventSystem: {fileID: 5917518296130326443, guid: 01fca4f6a67246a46a7942093ac42f61,
+    type: 3}

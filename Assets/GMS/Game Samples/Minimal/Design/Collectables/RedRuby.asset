@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a8da93acdc3f74092006e8167eeeb3, type: 3}
+  m_Name: RedRuby
+  m_EditorClassIdentifier: 
+  CollectibleDisplayName: Red Ruby
+  CollectibleKey: RedRuby
+  Icon: {fileID: 21300000, guid: eafe92538b4dfe6448d6cff7f7147f0c, type: 3}
+  Value: 1
+  randomXRotationWhenSpawned: 1
+  randomYRotationWhenSpawned: 1
+  randomZRotationWhenSpawned: 0
+  RotationRange:
+    XRange: {x: -15, y: 15}
+    YRange: {x: -15, y: -15}
+    ZRange: {x: 0, y: 0}
+  collectibleItem: {fileID: 4654380771000141545, guid: f40c958ee5d1fcd45baf6ad329212a67,
+    type: 3}
+  collectibleItemBuiltInRendering: {fileID: 4654380771000141545, guid: f4b210e4005da154aaf07131f906c891,
+    type: 3}
+  PickedUpClips:
+  - {fileID: 8300000, guid: 8476f4e3fe571f349b3812a98b2b95b0, type: 3}
+  - {fileID: 8300000, guid: 270a4ace890e0a34e9f7ffdcb4ab5183, type: 3}
+  SpawnParticlePrefab: {fileID: 0}
+  DeSpawnParticlePrefab: {fileID: 2913697594818456066, guid: bde7b256eb386f0429d87e3f9936ab25,
+    type: 3}

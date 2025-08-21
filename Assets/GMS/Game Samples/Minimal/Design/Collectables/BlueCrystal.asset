@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a8da93acdc3f74092006e8167eeeb3, type: 3}
+  m_Name: BlueCrystal
+  m_EditorClassIdentifier: 
+  CollectibleDisplayName: Blue Crystal
+  CollectibleKey: BlueCrystal
+  Icon: {fileID: 21300000, guid: 84c725f6869a396479a2b726bade9f0e, type: 3}
+  Value: 1
+  randomXRotationWhenSpawned: 1
+  randomYRotationWhenSpawned: 1
+  randomZRotationWhenSpawned: 1
+  RotationRange:
+    XRange: {x: 0, y: 360}
+    YRange: {x: 0, y: 360}
+    ZRange: {x: 0, y: 360}
+  collectibleItem: {fileID: 1269236997625227355, guid: d264cb49b0adf2045983aa9835a90939,
+    type: 3}
+  collectibleItemBuiltInRendering: {fileID: 1269236997625227355, guid: 5515b3b9c2b7346418e2a2fc1f9701f1,
+    type: 3}
+  PickedUpClips:
+  - {fileID: 8300000, guid: 8476f4e3fe571f349b3812a98b2b95b0, type: 3}
+  - {fileID: 8300000, guid: 270a4ace890e0a34e9f7ffdcb4ab5183, type: 3}
+  SpawnParticlePrefab: {fileID: 0}
+  DeSpawnParticlePrefab: {fileID: 2913697594818456066, guid: bde7b256eb386f0429d87e3f9936ab25,
+    type: 3}

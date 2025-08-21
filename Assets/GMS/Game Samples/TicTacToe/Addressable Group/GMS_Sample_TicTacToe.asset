@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GMS_Sample_TicTacToe
+  m_EditorClassIdentifier: 
+  m_GroupName: GMS_Sample_TicTacToe
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9c2dbfbd5f52ded4b9a1024672020f0a
+  m_SerializeEntries:
+  - m_GUID: 9c26c3111693f8e4a98209b8e5543747
+    m_Address: TicTacToe_MainCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdf366a99b6eff247b5df5622c0a8ef5
+    m_Address: TicTacToe_LevelRendering
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bb3fcf8f27b10740b408e9e8b862159
+    m_Address: TicTacToe_CameraSetup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62e6015ed1c91574587dd8593676d157
+    m_Address: TicTacToe_GameManager
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20d86ca278a4f3d4a9594b475ef62ae3
+    m_Address: TicTacToe_GridData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 917f8aaa289485146866dbca8f29a395
+    m_Address: TicTacToe_GameManager BuiltIn Rendering
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d8beae960f11bd4fb4702edf17a63f9
+    m_Address: TicTacToe_LevelRendering BuiltIn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09dbee44447a6774e9842f53cc7b8575
+    m_Address: TicTacToe_GridData_BuiltInRendering
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 537f7e84f0daa2945aa8536aa28eb739, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ece81373c9a38914994fe46066523216, type: 2}
+    - {fileID: 11400000, guid: 90481e455c377884d9e2b9cb476cc390, type: 2}

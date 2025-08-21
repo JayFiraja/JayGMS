@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab7b3813718e6a43a09b2947fdf1ce9, type: 3}
+  m_Name: TicTacToe_GameManager BuiltIn Rendering
+  m_EditorClassIdentifier: 
+  subManagerDataList:
+  - dataTypeName: GMS.TimeManagerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.Samples.TicTacToeStateData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.Samples.TicTacToeAudioData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 1
+  - dataTypeName: GMS.Samples.TicTacToeCameraData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.TicTacToeLevelData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.TicTacToeUIData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  - dataTypeName: GMS.Samples.TicTacToeGridData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loads: 1
+    IsBase: 0
+  subManagers:
+  - rid: 3765517692376186881
+  - rid: 3765517708287016961
+  - rid: 3765517708287016962
+  - rid: 3765517708287016964
+  - rid: 3765517708287016965
+  - rid: 3765517732634427392
+  - rid: 3765517741846953984
+  references:
+    version: 2
+    RefIds:
+    - rid: 3765517692376186881
+      type: {class: TicTacToeAudioData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        BaseManagerData:
+          AudioBaseAddress: AudioBase
+          AudioBaseSO: {fileID: 0}
+        FallingPiecesSfx:
+        - {fileID: 8300000, guid: 9b5cfd4ea003d6741b6252c82b07afeb, type: 3}
+        - {fileID: 8300000, guid: c4bfc014a4eebba48a4a3243d40afad9, type: 3}
+        FallenPiecesSfx:
+        - {fileID: 8300000, guid: 39333a879230e9e49be1495dfff9ebf8, type: 3}
+        - {fileID: 8300000, guid: 93846dc89aadbe24fa7b08886766c10c, type: 3}
+        - {fileID: 8300000, guid: c25f2c12a56c6644182b323a2fecd6d2, type: 3}
+        - {fileID: 8300000, guid: 8734c99ecdb1edd47b99b70888b174bc, type: 3}
+        - {fileID: 8300000, guid: 9bb0b84b89b4c71458dc4df767a8833d, type: 3}
+        - {fileID: 8300000, guid: 9055fe661753fd9438452797d448b308, type: 3}
+        DrawSfx:
+        - {fileID: 8300000, guid: fe534a77ed86e8849b75478d5f9c9a2a, type: 3}
+        WinnerSfx:
+        - {fileID: 8300000, guid: aeba11f433b692940b63f433ccb3b903, type: 3}
+        - {fileID: 8300000, guid: 65cb60fef8dc6614681dbf2035eddc6b, type: 3}
+        - {fileID: 8300000, guid: 02f3920235697c34691c15b26c4b34ca, type: 3}
+        - {fileID: 8300000, guid: 7880922aa93a97c448ede76478bfb2ff, type: 3}
+        - {fileID: 8300000, guid: 35c31e786b7c2134c9b5b3bb40adec5a, type: 3}
+        lightTurnedOn: {fileID: 8300000, guid: 25f87f0f716f12a4b99f8a971521fb7c, type: 3}
+    - rid: 3765517708287016961
+      type: {class: TicTacToeStateData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        TimeToStartMainMenu: 2.5
+        TimeToCallNextPlayerTurn: 0.25
+        TimeToMoveFromResultsToMainMenu: 10
+        PlayerDatas:
+        - PlayerTurn: 1
+          Color: {r: 0, g: 0, b: 0, a: 1}
+          DefaultMarkPrefab: {fileID: 910793879983213025, guid: e77a1f63cae19174fabdddafdff1eb33,
+            type: 3}
+          AlternativeMarkPrefab: {fileID: 8179277060327020699, guid: abab6bdb7e7d5a8438a540537c792e29,
+            type: 3}
+          usingAlternativeMark: 0
+        - PlayerTurn: 2
+          Color: {r: 0, g: 0, b: 0, a: 0}
+          DefaultMarkPrefab: {fileID: 7755687709771149459, guid: eb87ec8ca6b9b314894f9f2135e17fd5,
+            type: 3}
+          AlternativeMarkPrefab: {fileID: 8336665657864199763, guid: 4abb813d22491044089cd065ab881738,
+            type: 3}
+          usingAlternativeMark: 0
+    - rid: 3765517708287016962
+      type: {class: TicTacToeLevelData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        LevelRenderingPrefabAddress: TicTacToe_LevelRendering BuiltIn
+    - rid: 3765517708287016964
+      type: {class: TicTacToeUIData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        MainCanvasPrefabAddress: TicTacToe_MainCanvas
+    - rid: 3765517708287016965
+      type: {class: TicTacToeCameraData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        CameraContainerPrefabAddress: TicTacToe_CameraSetup
+    - rid: 3765517732634427392
+      type: {class: TimeManagerData, ns: GMS, asm: Assembly-CSharp}
+      data: 
+    - rid: 3765517741846953984
+      type: {class: TicTacToeGridData, ns: GMS.Samples, asm: Assembly-CSharp}
+      data:
+        GridDataAddress: TicTacToe_GridData_BuiltInRendering
