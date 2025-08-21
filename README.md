@@ -14,6 +14,9 @@ Note: Since this is an asset for the asset store I included scenes supporting UR
 
 Please use URP renderer example scenes as this unity project has URP setup.
 
+**GMS show case**
+
+https://jayfiraja.github.io/JohnVanD/pages/showcaseGMS.html
 
 **Unit Tests**
 
