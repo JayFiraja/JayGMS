@@ -1,5 +1,5 @@
 # JayGMS
-Sample GMS to showcase the asset in a unity project.
+Sample GMS to showcase the asset in a unity project. Last opened in **Unity version 2022.3.0f1**
 
 Quick start guide **GMS - Game Management Service version 1_0**
 found in path: "JayGMS\Assets\GMS\Quick Start Guide"
